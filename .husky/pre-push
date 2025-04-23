@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run type checking and linting
+npm run type-check
+
+# Run E2E tests
+npm run test:e2e
